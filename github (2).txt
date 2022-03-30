@@ -1,0 +1,107 @@
+// githubga project joylash
+0.birinchi  githubdan new repository ochib oling.
+1.najot talim 27-dars bu project papkasini ichiga kirib terminal oching.
+2.git config --global user.name "AbdullohAbduxalilov"
+3.git config --global user.email "abdullohabduxalilov@gmail.com"
+4.git config --global --list
+5.cd ..
+6.git clone https://github.com/AbdullohAbduxalilov/flutter_project_exam_12.git   //bu qoyilayotgan project linki
+7. yangi ochilgan kompdagi faylga proyektning build papkasifdan tashqari hammasi tashlanadi
+8. cd   // clone qilingan pathni ber
+9. git add .
+10. git commit -m "First Upload"
+11. git push origin main 
+12. git hub usernameni kiriting degan joyiga token kiriting va keyingisini bosh qoldirib enter bosing.
+13. git hub parol kiriting hozir parolni orniga token qoyilyapti tokenni github settingsdan olasan 
+14. bergan linkka bosing
+
+
+// agar githubdagi projectningni update qilmoqchi bo'lsang quyidagi ketma-ketliklarni bajarishing kerak:
+
+1. githubga yuklagan projectingni clone qilingan papkasiga borib terminal ochib ol.
+2. git add .
+3. git commit -m "Update boldi"
+4. git push -u -f origin main
+5. boldi endi borib githubdagi repositoringga qarab kor u yerda update qilingan bolishi kerak.
+
+// Endi agar githubda commanda bilan ishlayotgan bolsang, va sheriging projectga ozgartirish kiritsa va sen ularni ozingning clone 
+qilingan projectingda ha bolishini xohlasang quyidagi ketma-ketliklarni qilasan.
+ 1. clone qilingan projectning papkasiga kirib terminal ochasan.
+ 2. git pull komandasini terasan va boldi.
+ 3. clone qilingan projectingni ochib tekshirib korsang update qilingan holatda turganini korasan.
+ 
+ 
+ // Endi agar updatelarni biron bir alohida papkaga qoymoqchi bolsang 
+ // hozircha bu method oxshamadi
+ 1. git pull "path berasan" bu path githubdagi repository pathi.
+ 
+ //Commit qilish qilib github repositoryni
+ 
+ 1. repository papkasiga borib => terminal och: 
+ 2. terminalga code . deb yoz.
+ 3. vs code terminalini och 
+ 4. git status deb yoz:
+ 4.1 nothing to commit desa nimadur qosh turgan faylinga.
+ 4.2 Untracked files desa demak nimadur ozgartirish kiritilgan va shuni push qilish kerak 
+ 5. git add .
+ 6. git commit -m "nimadur qoshildi"
+ 7. git push. agar xatolik bersa avval git pull deb yozib ko'r.
+ 
+ 1. repo fayliga borib vs code ichidagi terminaldan
+ 2. git pull uchun shunchaki git pull qil
+ 
+ 
+ // git hubdagi boshqa reponi ozimizga yuklash login parollarsiz
+ 1. kochirilidagian reponi linkini olish.
+ 2. kochirmoqchi bolgan joyga kelib terminal ochish.
+ 3. git clone https://github.com/AbdullohFlutterDeveloper/calculator.git
+ 4. project ichiga kirish.
+ 5. ctrl+h ni bosib .git papkasini ochirib tashlash.
+ 6. githubdan yangi repo ochish faqat readme qoshmasdan.
+ 7. clone qilingan project ichida vs ochish code . commandasi orqali.
+ 8. vs code terminalini ochish. (ls qilganda lib chiqishi kerak boshqalari bilan)
+ 9. git init 
+ 10. git add .
+ 11. git hubdagi qolgan tayyor codelarni hammasini olib terminalga tashlash.
+ya' ni shularni hammasini. 
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AbdullohFlutterDeveloper/1.git
+git push -u origin main
+12. agar parol sorasa registratsiya qilish git hub accountlar bilan. agar token sorasa token bilan.
+
+ 
+ 
+// githubga yangi repository ochish.
+
+1. ishlayotgan projectni folderiga borib terminaldan code . commandasini tering.
+2. git init
+3. git add .
+4. git hubdagi qolgan tayyor codelarni hammasini olib terminalga tashlash.
+ya' ni shularni hammasini. 
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AbdullohFlutterDeveloper/1.git
+git push -u origin main
+5. agar parol sorasa registratsiya qilish git hub accountlar bilan. agar token sorasa token bilan.
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
